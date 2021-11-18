@@ -10,7 +10,6 @@ $country = $_POST['country'];
 // exit();
 
 $sql = "INSERT INTO ajax_serialize_form(name, age, gender, country) VALUES ('{$name}', $age, '{$gender}', '{$country}')";
-
 // echo $sql;
 // exit();
 
